@@ -148,44 +148,25 @@ export function AppLayout() {
           </Tabs.Content>
         </AnimatedSegmentedTabs>
         <footer className="app-footer">
-          © {new Date().getFullYear()} IP ·{" "}
-          <UnderlineHover asChild>
-            <a
-              href="https://huzhihui.com/blog/one-ip-guide"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t("使用文档")}
-            </a>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <Link to="/docs/api">API</Link>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <Link to="/terms">{t("使用条款")}</Link>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <Link to="/privacy">{t("隐私政策")}</Link>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <a
-              href="https://github.com/zhihui-hu/one-ip"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 align-middle"
-            >
-              GitHub
-            </a>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <a href="mailto:ip@huzhihui.com">{t("联系作者")}</a>
-          </UnderlineHover>
-        </footer>
+	          © 2026 IP ·{" "}
+	          <UnderlineHover asChild>
+	            <a
+	              href="https://huzhihui.com/blog/one-ip-guide"
+	              target="_blank"
+	              rel="noopener noreferrer"
+	            >
+	              使用文档
+	            </a>
+	          </UnderlineHover>{" "}
+	          ·{" "}
+	          <UnderlineHover asChild>
+	            <Link to="/terms">使用条款</Link>
+	          </UnderlineHover>{" "}
+	          ·{" "}
+	          <UnderlineHover asChild>
+	            <Link to="/privacy">隐私政策</Link>
+	          </UnderlineHover>
+	        </footer>
       </div>
       <aside aria-label={t("站点通知")} className="update-notices">
         <AppUpdateChecker />
