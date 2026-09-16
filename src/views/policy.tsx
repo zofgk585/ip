@@ -109,17 +109,17 @@ export default function PolicyPage({ page }: { page: "terms" | "privacy" }) {
           <p className="text-sm leading-6 text-muted-foreground">{body}</p>
         </ToolCard>
       ))}
-      <ToolCard title={t("联系作者")}>
-        <p className="mb-2 text-sm text-muted-foreground">
-          {t("如对本站使用或隐私有疑问，请通过邮箱联系作者。")}
-        </p>
-        <a
-          className="text-sm text-primary hover:underline"
-          href="mailto:ip@huzhihui.com"
-        >
-          ip@huzhihui.com
-        </a>
-      </ToolCard>
+     <ToolCard title={t("联系作者")}>
+	        <p className="mb-2 text-sm text-muted-foreground">
+	          {t("如对本站使用或隐私有疑问，请通过邮箱联系作者。")}
+	        </p>
+	        <a
+	          className="text-sm text-primary hover:underline"
+	          href="mailto:jyhmrj@jyhsky.eu.cc"
+	        >
+	          jyhmrj@jyhsky.eu.cc
+	        </a>
+	      </ToolCard>
     </div>
   );
 }
